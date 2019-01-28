@@ -16,9 +16,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display:flex;
-  flex-direction: column;
   height: 100vh;
+  width: 100%;
   align-items: flex-start;
+  flex-grow: 1;
+}
+
+.instructions{
+  display:flex;
+  flex-direction: column;
+
 }
 
 
@@ -27,8 +34,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   background:#1abc9c;
   padding:20px;
   display:flex;
+  height:33.333%vh;
   flex-direction: column;
-  height:33.333%;
 
 }
 
@@ -36,8 +43,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   background:#1abc9c;
   padding:20px;
   display:flex;
+  height:33.333%vh;
   flex-direction: column;
-  height:33.333%;
 }
 
 .step3{
@@ -45,7 +52,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   padding:20px;
   display:flex;
   flex-direction: column;
-  height:33.333%;
+
+  height:33.333%vh;
+}
+
+.system{
+  display:flex;
+  flex-direction: column;
+  height:100vh;
+
 }
 
 .status {
