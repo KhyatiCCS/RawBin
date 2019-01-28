@@ -29,7 +29,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   flex-direction: column;
   height:33.333%;
-  width: 600px;
 
 }
 
@@ -39,7 +38,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   flex-direction: column;
   height:33.333%;
-  width: 600px;
 }
 
 .step3{
@@ -48,7 +46,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   flex-direction: column;
   height:33.333%;
-  width: 600px;
 }
 
 .status {
