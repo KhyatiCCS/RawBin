@@ -16,9 +16,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display:flex;
-  height: 100vh;
-  align-items: stretch:;
-  border: 20px solid mistyrose;
+  min-height: 100vh;
+  align-items: stretch;
+  /* border: 20px solid mistyrose; */
+}
+
+.item{
+  width:900px;
 }
 
 .instructions{
