@@ -22,14 +22,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .item{
   width:900px;
+
 }
 
 .instructions{
   background:#1abc9c;
   display:flex;
   flex-direction: column;
-  padding:50px;
   width:66.66%;
+  justify-content: space-around;
+  /* border: 20px solid goldenrod; */
 
 
 }
@@ -38,18 +40,27 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .step1{
   display:flex;
+  padding:80px;
   flex-direction: column;
+  height:33.33%;
+  /* border: 10px solid mistyrose; */
 
 }
 
 .step2{
   display:flex;
+  padding:80px;
   flex-direction: column;
+  height:33.33%;
+  /* border: 10px solid mistyrose; */
 }
 
 .step3{
   display:flex;
+  padding:80px;
   flex-direction: column;
+  height:33.33%;
+  /* border: 10px solid mistyrose; */
 }
 
 .system{
@@ -70,12 +81,29 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .metrics {
-  background:#9b59b6;
-  padding:50px;
+  padding:80px;
   display: flex;
+  flex-direction: column;
   height:66.66%;
+  font-size: 50px;
 
 }
+
+.unit{
+  font-size: 20px;
+}
+
+.weight{
+  display:flex;
+  align-items: baseline;
+}
+
+.amount{
+  display:flex;
+  align-items: baseline;
+}
+
+
 
 /* .box {
   color:white;
