@@ -69,13 +69,21 @@ hr{
 }
 
 .section1{
-  padding:80px
+  padding:80px;
 }
+
+.iconbar{
+  display:flex;
+  align-items: center;
+}
+
+
 
 .step1{
   display:flex;
   flex-direction: column;
   height:33.33%;
+  width:75%;
   /* border: 10px solid mistyrose; */
 
 }
@@ -84,6 +92,7 @@ hr{
   display:flex;
   flex-direction: column;
   height:33.33%;
+  width:75%;
   /* border: 10px solid mistyrose; */
 }
 
@@ -91,6 +100,7 @@ hr{
   display:flex;
   flex-direction: column;
   height:33.33%;
+  width:75%;
   /* border: 10px solid mistyrose; */
 }
 
@@ -98,7 +108,7 @@ hr{
   display:flex;
   flex-direction: column;
   width:33.33%;
-  background: #8c8a83;
+  background: #474442;
 
 
 }
@@ -106,7 +116,7 @@ hr{
 
 
 .status {
-  background:#fffbef;
+  background:#96948a;
   padding:50px;
   display: flex;
   align-items: center;
@@ -117,6 +127,7 @@ hr{
 .message{
   font-size: 20px;
   font-family: roboto;
+  color: white;
 }
 
 .metrics {
